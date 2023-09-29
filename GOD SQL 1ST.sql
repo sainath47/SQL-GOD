@@ -3,6 +3,12 @@ SHOW databases;
 use GOD_STARTED;
 SELECT database();
 
+-- varchar vs char
+-- variable charector vs charector of fixed length
+-- int(10) is not good choice to store mobile-no.s cause 011... will not be permitted whereas it will be permitted in char(10)
+
+
+
 CREATE DATABASE GOD_STARTED;
 
 CREATE TABLE cats (
